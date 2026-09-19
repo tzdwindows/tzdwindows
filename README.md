@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./glass.svg" width="100%" alt="tzdwindows 7" />
+  <img src="https://raw.githubusercontent.com/tzdwindows/tzdwindows/main/glass.svg" width="100%" alt="tzdwindows 7" />
 
   <br/><br/>
 
