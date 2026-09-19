@@ -1,21 +1,23 @@
 <div align="center">
 
+<pre>
+========================================================================================
+  tzdwindows 7 // SYSTEM RING-0 // EXECUTABLE WORKSPACE
+========================================================================================
+</pre>
 
-```
-
-# ========================================================================================
-tzdwindows 7 // SYSTEM RING-0 // EXECUTABLE WORKSPACE
-
-```
-
-[![C99](https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white)](#)
-[![Kernel](https://img.shields.io/badge/Kernel-Direct_Memory_Access-black?style=for-the-badge)](#)
-[![Runtime](https://img.shields.io/badge/Runtime-V8_Hook_%26_QuickJS-black?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/Binary-Stripped_No_Symbols-black?style=for-the-badge)](#)
+<p align="center">
+  <img src="[https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white](https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white)" alt="ISA" />
+  <img src="[https://img.shields.io/badge/KERNEL-DIRECT%20MEMORY%20ACCESS-black?style=for-the-badge](https://img.shields.io/badge/KERNEL-DIRECT%20MEMORY%20ACCESS-black?style=for-the-badge)" alt="Kernel" />
+  <img src="[https://img.shields.io/badge/RUNTIME-V8%20HOOK%20%26%20QUICKJS-black?style=for-the-badge](https://img.shields.io/badge/RUNTIME-V8%20HOOK%20%26%20QUICKJS-black?style=for-the-badge)" alt="Runtime" />
+  <img src="[https://img.shields.io/badge/BINARY-STRIPPED%20NO%20SYMBOLS-black?style=for-the-badge](https://img.shields.io/badge/BINARY-STRIPPED%20NO%20SYMBOLS-black?style=for-the-badge)" alt="Binary" />
+</p>
 
 </div>
 
-### `> whoami`
+---
+
+### <code>&gt; whoami</code>
 
 ```c
 typedef struct {
@@ -40,7 +42,7 @@ Developer self = {
 
 ---
 
-### `> lsof -p $$ -a /projects`
+### > lsof -p $$ -a /projects
 
 ```text
 PID    NAME               BACKEND     DESCRIPTION
@@ -55,7 +57,7 @@ PID    NAME               BACKEND     DESCRIPTION
 
 ---
 
-### `> objdump -d --disassemble=skills`
+### > objdump -d --disassemble=skills
 
 ```assembly
 0000000100003f40 <_languages>:
@@ -74,4 +76,4 @@ PID    NAME               BACKEND     DESCRIPTION
 
 ---
 
-### `> git log --graph --oneline`
+### > git log --graph --oneline
