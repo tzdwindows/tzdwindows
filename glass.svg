@@ -1,36 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 140" width="100%" height="140">
   <defs>
-    <!-- 径向暗角渐变：中心轻薄透亮(薄)，四周浓厚暗黑(浓) -->
-    <radialGradient id="vignetteGlass" cx="50%" cy="50%" r="65%">
+    <!-- 中心薄（低不透明度）、四周浓（高不透明度深黑） -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="60%">
       <stop offset="0%" stop-color="#2d333b" stop-opacity="0.3" />
-      <stop offset="60%" stop-color="#1c2128" stop-opacity="0.75" />
+      <stop offset="65%" stop-color="#161b22" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#0d1117" stop-opacity="0.98" />
     </radialGradient>
 
-    <!-- 边缘发光微蓝边框 -->
-    <linearGradient id="glowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.4" />
-      <stop offset="50%" stop-color="#30363d" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.3" />
+    <!-- 边框发光线 -->
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.4" />
     </linearGradient>
   </defs>
 
-  <!-- 磨砂质感半透底板 -->
+  <!-- 磨砂半透基底 -->
   <rect width="100%" height="100%" rx="12" fill="#161b22" opacity="0.6" />
 
-  <!-- 中间薄四周浓的渐变层 -->
-  <rect width="100%" height="100%" rx="12" fill="url(#vignetteGlass)" stroke="url(#glowBorder)" stroke-width="1.5" />
+  <!-- 毛玻璃质感渐变层 -->
+  <rect width="100%" height="100%" rx="12" fill="url(#vignette)" stroke="url(#borderGlow)" stroke-width="1.5" />
 
-  <!-- 终端内容文本 -->
+  <!-- 终端内容文本（使用原生 unicode 字符代替实体） -->
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
-    <text x="50%" y="45" fill="#58a6ff" font-size="11" letter-spacing="3" opacity="0.85">
+    <text x="50%" y="46" fill="#58a6ff" font-size="11" letter-spacing="3" opacity="0.9">
       [ HARDWARE ISOLATED // RING-0 WORKSPACE ]
     </text>
     <text x="50%" y="82" fill="#ffffff" font-size="24" font-weight="700" letter-spacing="2">
       tzdwindows 7
     </text>
     <text x="50%" y="112" fill="#8b949e" font-size="12" letter-spacing="1">
-      Low-Level Systems &bull; Compilers &bull; Native Runtimes
+      Low-Level Systems • Compilers • Native Runtimes
     </text>
   </g>
 </svg>
