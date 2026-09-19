@@ -1,15 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/tzdwindows/tzdwindows/main/glass.svg" width="100%" alt="tzdwindows 7" />
-
-  <br/><br/>
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white" alt="ISA" />
-    <img src="https://img.shields.io/badge/KERNEL-DIRECT%20MEMORY%20ACCESS-black?style=for-the-badge" alt="Kernel" />
-    <img src="https://img.shields.io/badge/RUNTIME-V8%20HOOK%20%26%20QUICKJS-black?style=for-the-badge" alt="Runtime" />
-    <img src="https://img.shields.io/badge/BINARY-STRIPPED%20NO%20SYMBOLS-black?style=for-the-badge" alt="Binary" />
-  </p>
+  <img src="/glass.svg" width="100%" alt="tzdwindows 7" />
 
 </div>
 
