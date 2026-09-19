@@ -7,10 +7,10 @@
 </pre>
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white](https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white)" alt="ISA" />
-  <img src="[https://img.shields.io/badge/KERNEL-DIRECT%20MEMORY%20ACCESS-black?style=for-the-badge](https://img.shields.io/badge/KERNEL-DIRECT%20MEMORY%20ACCESS-black?style=for-the-badge)" alt="Kernel" />
-  <img src="[https://img.shields.io/badge/RUNTIME-V8%20HOOK%20%26%20QUICKJS-black?style=for-the-badge](https://img.shields.io/badge/RUNTIME-V8%20HOOK%20%26%20QUICKJS-black?style=for-the-badge)" alt="Runtime" />
-  <img src="[https://img.shields.io/badge/BINARY-STRIPPED%20NO%20SYMBOLS-black?style=for-the-badge](https://img.shields.io/badge/BINARY-STRIPPED%20NO%20SYMBOLS-black?style=for-the-badge)" alt="Binary" />
+  <code><b>ISA:</b> x86_64</code> &nbsp;|&nbsp;
+  <code><b>KERNEL:</b> DIRECT MEMORY ACCESS</code> &nbsp;|&nbsp;
+  <code><b>RUNTIME:</b> V8 HOOK & QUICKJS</code> &nbsp;|&nbsp;
+  <code><b>BINARY:</b> STRIPPED NO SYMBOLS</code>
 </p>
 
 </div>
@@ -71,9 +71,3 @@ PID    NAME               BACKEND     DESCRIPTION
 0000000100003f60 <_rendering>:
   100003f60:   48 8d 3d 00 00 00 00   lea    rdi, [rip + "OpenGL / WebGL / GLSL Shaders"]
   100003f67:   c3                     ret
-
-```
-
----
-
-### > git log --graph --oneline
