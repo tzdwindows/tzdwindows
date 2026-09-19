@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 140" width="100%" height="140">
   <defs>
+    <!-- 径向暗角渐变：中心轻薄透亮(薄)，四周浓厚暗黑(浓) -->
     <radialGradient id="vignetteGlass" cx="50%" cy="50%" r="65%">
       <stop offset="0%" stop-color="#2d333b" stop-opacity="0.3" />
       <stop offset="60%" stop-color="#1c2128" stop-opacity="0.75" />
       <stop offset="100%" stop-color="#0d1117" stop-opacity="0.98" />
     </radialGradient>
 
+    <!-- 边缘发光微蓝边框 -->
     <linearGradient id="glowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.4" />
       <stop offset="50%" stop-color="#30363d" stop-opacity="0.15" />
@@ -13,10 +15,13 @@
     </linearGradient>
   </defs>
 
+  <!-- 磨砂质感半透底板 -->
   <rect width="100%" height="100%" rx="12" fill="#161b22" opacity="0.6" />
 
+  <!-- 中间薄四周浓的渐变层 -->
   <rect width="100%" height="100%" rx="12" fill="url(#vignetteGlass)" stroke="url(#glowBorder)" stroke-width="1.5" />
 
+  <!-- 终端内容文本 -->
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
     <text x="50%" y="45" fill="#58a6ff" font-size="11" letter-spacing="3" opacity="0.85">
       [ HARDWARE ISOLATED // RING-0 WORKSPACE ]
