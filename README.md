@@ -1,6 +1,17 @@
 <div align="center">
 
-  <img src="/glass.svg" width="100%" alt="tzdwindows 7" />
+<pre>
+========================================================================================
+  tzdwindows 7 // SYSTEM RING-0 // EXECUTABLE WORKSPACE
+========================================================================================
+</pre>
+
+<p align="center">
+  <img src="[https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white](https://img.shields.io/badge/ISA-x86__64-black?style=for-the-badge&logo=intel&logoColor=white)" alt="ISA" />
+  <img src="[https://img.shields.io/badge/KERNEL-DIRECT%20MEMORY%20ACCESS-black?style=for-the-badge](https://img.shields.io/badge/KERNEL-DIRECT%20MEMORY%20ACCESS-black?style=for-the-badge)" alt="Kernel" />
+  <img src="[https://img.shields.io/badge/RUNTIME-V8%20HOOK%20%26%20QUICKJS-black?style=for-the-badge](https://img.shields.io/badge/RUNTIME-V8%20HOOK%20%26%20QUICKJS-black?style=for-the-badge)" alt="Runtime" />
+  <img src="[https://img.shields.io/badge/BINARY-STRIPPED%20NO%20SYMBOLS-black?style=for-the-badge](https://img.shields.io/badge/BINARY-STRIPPED%20NO%20SYMBOLS-black?style=for-the-badge)" alt="Binary" />
+</p>
 
 </div>
 
@@ -8,18 +19,14 @@
 
 ### <code>&gt; whoami</code>
 
-
-```
-
-c
+```c
 typedef struct {
-const char* signature;
-const char* core_focus[3];
-const char* architecture;
-uint32_t    optimization_level;
+    const char* signature;
+    const char* core_focus[3];
+    const char* architecture;
+    uint32_t    optimization_level;
 } Developer;
 
-```
 Developer self = {
     .signature = "tzdwindows 7",
     .core_focus = {
@@ -33,16 +40,11 @@ Developer self = {
 
 ```
 
-```
-
 ---
 
-### <code>&gt; lsof -p $$ -a /projects</code>
+### > lsof -p $$ -a /projects
 
-
-```
-
-text
+```text
 PID    NAME               BACKEND     DESCRIPTION
 -----------------------------------------------------------------------------------------
 1001   TzdTinyFramework   C99/GPU     零依赖极简原生浏览器引擎与桌面运行时，内置 QuickJS
@@ -55,17 +57,13 @@ PID    NAME               BACKEND     DESCRIPTION
 
 ---
 
-### <code>&gt; objdump -d --disassemble=skills</code>
+### > objdump -d --disassemble=skills
 
-
-```
-
-assembly
+```assembly
 0000000100003f40 <_languages>:
-100003f40:   48 8d 3d 00 00 00 00   lea    rdi, [rip + "C99 / C++20 / x86_64 ASM"]
-100003f47:   e8 00 00 00 00         call   push_stack
+  100003f40:   48 8d 3d 00 00 00 00   lea    rdi, [rip + "C99 / C++20 / x86_64 ASM"]
+  100003f47:   e8 00 00 00 00         call   push_stack
 
-```
 0000000100003f50 <_internals>:
   100003f50:   48 8d 3d 00 00 00 00   lea    rdi, [rip + "V8 Engine / QuickJS / LLVM IR"]
   100003f57:   e8 00 00 00 00         call   intercept_call
@@ -76,18 +74,6 @@ assembly
 
 ```
 
-```
-
 ---
 
-### <code>&gt; git log --graph --oneline</code>
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/58a6ff/tzdwindows" alt="tzdwindows's GitHub Activity" width="100%" />
-</div>
-
-<br/>
-
-<div align="right">
-  <code>[STATUS: 0x00000000 SUCCESS]</code>
-</div>
+### > git log --graph --oneline
